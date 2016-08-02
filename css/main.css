@@ -1,0 +1,112 @@
+a{
+	text-decoration: none;
+}
+/*Fondo naranja*/
+.fondo{
+	background-color: #F9D669;
+    background-size: cover;
+	color: white;
+	height: 650px;
+}
+       /*Boton amarillo*/
+/*Estilos Generales*/
+.button {
+	background:#FACC2E;
+	border: none;
+	color:black;
+	display:inline-block;
+	font-size:1.25em;
+	margin:20px;
+	padding:10px 0;
+	text-align:center;
+	width:200px;
+	text-decoration:none;
+	box-shadow:0px 3px 0px #E3C361;
+	margin-top: 16%;
+}
+.button span {
+	margin-right:10px;
+	color: white;
+}
+/*Color del boton*/
+.button.yellow {
+	background:#FACC2E;
+}
+/*menu de navegacion*/
+li{
+	list-style: none;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 16%;
+	margin-left: 15%;
+	padding-left: 4%;
+	color: white;
+	font-weight: bold;
+}
+/*titulo*/
+h1{
+    margin-top: 15%;
+    font-size: 300%;
+}
+
+/*Proyectos*/
+/*Fondo*/
+.gris{
+	background-color: gray;
+	background-size: 100% 100%;
+	height: 1245px;
+}
+.rectanblan{
+	background-color: white;
+	margin-top: 10%;
+}
+/*imagenes*/
+.imgmosa{
+	width: 300px;
+	height:300px;
+	margin: 5% 25%;
+	border: 1px #ECDFB5  solid;
+}
+/*Efectos imagenes*/
+.img-contenedor img {
+-webkit-transition:all .9s ease; /* Safari y Chrome */
+-moz-transition:all .9s ease; /* Firefox */
+-o-transition:all .9s ease; /* IE 9 */
+-ms-transition:all .9s ease; /* Opera */
+width:300px;
+}
+.img-contenedor:hover img {
+-webkit-transform:scale(1.25);
+-moz-transform:scale(1.25);
+-ms-transform:scale(1.25);
+-o-transform:scale(1.25);
+transform:scale(1.25);
+}
+.img-contenedor {/*Ancho y altura son modificables al requerimiento de cada uno*/
+width:350px;
+height:350px;
+overflow:hidden;
+}
+/*Texto*/
+p, h3{
+	margin-left: 6%;
+	padding: -5%;
+	margin-bottom: -1%;
+}
+/*Footer*/
+                /*Fondo*/
+.fondof{
+	background-color: black;
+	background-size: 100% 100%;
+	height: 100px;
+}
+.alinear{
+	color: white;
+	margin-left: -3%;
+}
+.lista{
+	margin-top:  -10%;
+    margin-left: -1%;
+	font-size: 80%;
+}
+
